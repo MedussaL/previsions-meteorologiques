@@ -1,8 +1,10 @@
 # Modélisation de Séries Temporelles pour la Prédiction de la Météo à Bâle, Suisse
   - Collecte minutieuse et nettoyage des données météorologiques historiques de Bâle, Suisse, à partir de sources fiables.
   - Utilisation de pandas pour effectuer un prétraitement des données, notamment la gestion des valeurs manquantes, la normalisation et la transformation des données en séries temporelles.
-  - Mise en place de deux approches distinctes pour la modélisation et la prédiction :
+  - Mise en place de différentes approches distinctes pour la modélisation et la prédiction :
     - Utilisation de librairies de machine learning telles que Scikit-Learn avec un modèle Ridge pour créer un modèle prédictif basé sur des caractéristiques extraites des données météorologiques historiques.
+    - Intégration de XGBoost pour la modélisation et la prédiction en exploitant les capacités de boosting d'arbres de décision.
+    - Utilisation d'un modèle LSTM (Long Short-Term Memory) pour capturer les dépendances à long terme dans les séries temporelles.
     - Utilisation du modèle stochastique SARIMAX de la librairie statsmodels pour modéliser les séries temporelles et effectuer des prévisions en fonction des tendances et des saisons passées.
   - Évaluation des performances des deux modèles en utilisant des métriques appropriées.
   - Comparaison des résultats des deux approches pour déterminer quel modèle offre la meilleure précision dans la prédiction de la météo à Bâle.
